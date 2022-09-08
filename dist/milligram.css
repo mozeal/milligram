@@ -2,7 +2,7 @@
   * Milligram v1.4.1
   * https://milligram.io
   *
-  * Copyright (c) 2020 CJ Patoilo
+  * Copyright (c) 2022 CJ Patoilo
   * Licensed under the MIT license
  */
 
@@ -19,7 +19,7 @@ html {
 
 body {
   color: #606c76;
-  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Kanit', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: .01em;
@@ -582,12 +582,12 @@ h6 {
 }
 
 h1 {
-  font-size: 4.6rem;
+  font-size: 4.0rem;
   line-height: 1.2;
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   line-height: 1.25;
 }
 

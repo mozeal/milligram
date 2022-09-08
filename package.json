@@ -60,7 +60,8 @@
     "visual-regression": "run-p serve visual-regression:compare",
     "visual-regression:compare": "run-s build && backstop test --config backstop.config.js",
     "visual-regression:reference": "run-s build && backstop reference --config backstop.config.js",
-    "watch": "onchange src -- run-p build"
+    "watch": "onchange src -- run-p build",
+    "install": "cp dist/*.* ../files/wp-content/themes/milligram/css"
   },
   "prettier": {
     "jsxSingleQuote": false,
